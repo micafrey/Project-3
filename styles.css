@@ -1,0 +1,25 @@
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 62.5%;
+  width: 1024px;
+  margin: 0 auto; }
